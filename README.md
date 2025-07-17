@@ -1,85 +1,100 @@
-# Job Tracker Using MERN Stack
 
-# Job Application Tracker - MERN Stack
+# 🧾 Job Tracker - MERN Stack Application
 
-## Table of Contents
-- [Features](#features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [API Documentation](#api-documentation)
-- [Frontend Components](#frontend-components)
-- [Configuration](#configuration)
-- [Deployment](#deployment)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+A full-stack Job Application Tracker built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to track their job applications with details like company name, job title, status, location, and application date.
 
-## Features
+---
 
-### Core Functionality
-- **Application Management**:
-  - Add new job applications
-  - Edit existing entries
-  - Delete applications
-  - View all applications in sortable table
+## 🚀 Features
 
-### Advanced Features
-- **Status Tracking**:
-  - Pending
-  - Interview
-  - Offer
-  - Rejected
-- **Search & Filter**:
-  - Full-text search across all fields
-  - Status-based filtering
-- **Data Visualization**:
-  - Interactive dashboard with statistics
-  - Response rate calculation
-- **Data Export**:
-  - Export to CSV functionality
+- 🔐 User authentication (Sign Up / Login)
+- ➕ Add, Edit, and Delete job applications
+- 🔍 Filter and sort by job status, company, location, or date
+- 📤 Export applications (CSV or PDF)
+- 🎨 Responsive UI with light/dark theme toggle
+- 📊 Dashboard overview with status cards and stats
+- 📁 Organized frontend and backend folder structure
 
-## Technologies
+---
+
+## 🧱 Tech Stack
 
 ### Frontend
-| Technology | Purpose |
-|------------|---------|
-| React | UI Framework |
-| Axios | HTTP Client |
-| CSS3 | Styling |
-| React Hooks | State Management |
+- React.js
+- Context API
+- Axios
+- React Router DOM
 
 ### Backend
-| Technology | Purpose |
-|------------|---------|
-| Node.js | Runtime Environment |
-| Express | Web Framework |
-| MongoDB | Database |
-| Mongoose | ODM |
-| CORS | Cross-Origin Resource Sharing |
+- Node.js
+- Express.js
+- MongoDB with Mongoose
+- dotenv for environment configs
+- Custom logging middleware
 
-## Installation
+---
 
-### Backend Setup
+## 📂 Folder Structure
+/MERN STACK
+├── backend/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── middlewares/
+│ ├── .env
+│ └── server.js
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── context/
+│ │ └── App.js
+│ └── package.json
+
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the repo
+
 ```bash
-# Clone repository
-git clone https://github.com/yourusername/job-tracker-mern.git
-cd job-tracker-mern/backend
+git clone https://github.com/Rakesh3697/Job_Tracker_Mern.git
+cd Job_Tracker_Mern
+```
+## Backend Setup
 
-# Install dependencies
+```bash
+cd backend
 npm install
-
-# Configure environment
-echo "MONGODB_URI=mongodb://localhost:27017/job_tracker" > .env
-echo "PORT=5000" >> .env
-
-# Start development server
-npm run dev
-
-cd ../frontend
-
-# Install dependencies
-npm install
-
-# Start React app
+# Create a `.env` file
+touch .env
+# Add the following to `.env`:
+# MONGO_URI=<your-mongodb-connection>
+# JWT_SECRET=<your-secret-key>
+# PORT=5000
 npm start
+```
+
+## Frontend Setup
+```bash
+cd ../frontend
+npm install
+npm start
+```
+##🔐 Environment Variables
+In the backend/.env file, add:
+
+```bash
+env
+Copy
+Edit
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+PORT=5000
+```
+
+🧑‍💻 Author
+Rakesh Rocky
+GitHub | LinkedIn
+

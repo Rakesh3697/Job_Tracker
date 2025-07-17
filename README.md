@@ -75,3 +75,11 @@ echo "PORT=5000" >> .env
 
 # Start development server
 npm run dev
+
+cd ../frontend
+
+# Install dependencies
+npm install
+
+# Start React app
+npm start

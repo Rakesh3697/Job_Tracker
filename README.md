@@ -36,24 +36,25 @@ A full-stack Job Application Tracker built using the MERN stack (MongoDB, Expres
 
 ## 📂 Folder Structure
 📦 Job_Tracker_Mern
-├── 📁 backend
-│   ├── 📁 controllers
-│   ├── 📁 models
-│   ├── 📁 routes
-│   ├── 📄 server.js
-│   └── 📄 .env
-├── 📁 frontend
-│   ├── 📁 public
-│   ├── 📁 src
-│   │   ├── 📁 components
-│   │   ├── 📁 pages
-│   │   ├── 📁 context
-│   │   ├── 📄 App.js
-│   │   └── 📄 index.js
-│   └── 📄 package.json
-├── 📄 README.md
-└── 📄 .gitignore
-─ package.json
+
+📦 Job_Tracker_Mern/
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── server.js
+│   └── .env
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── context/
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+├── README.md
+└── .gitignore
 
 
 ---

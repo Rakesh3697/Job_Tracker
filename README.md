@@ -40,7 +40,7 @@ A full-stack Job Application Tracker built using the MERN stack (MongoDB, Expres
 │   ├── 📁 controllers   
 │   ├── 📁 models  
 │   ├── 📁 routes  
-│   ├── 📄 server.js 
+│   ├── 📄 server.js  
 │   └── 📄 .env   
 ├── 📁 frontend    
 │   ├── 📁 public  

@@ -86,10 +86,9 @@ npm start
 In the backend/.env file, add:
 
 ```bash
-env
-Copy
-Edit
 MONGO_URI=your_mongodb_connection_string
+```
+```bash
 JWT_SECRET=your_secret_key
 PORT=5000
 ```

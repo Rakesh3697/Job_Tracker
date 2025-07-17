@@ -35,18 +35,14 @@ A full-stack Job Application Tracker built using the MERN stack (MongoDB, Expres
 ---
 
 ## 📂 Folder Structure
-📦 Job_Tracker_Mern
-
-
+📦 Job_Tracker_Mern  
 ├── 📁 backend  
 │   ├── 📁 controllers   
 │   ├── 📁 models  
 │   ├── 📁 routes  
 │   ├── 📄 server.js 
-│   └── 📄 .env  
-
-
-├── 📁 frontend  
+│   └── 📄 .env   
+├── 📁 frontend    
 │   ├── 📁 public  
 │   ├── 📁 src  
 │   │   ├── 📁 components  

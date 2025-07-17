@@ -56,6 +56,11 @@ A full-stack Job Application Tracker built using the MERN stack (MongoDB, Expres
 ├── 📄 README.md  
 └── 📄 .gitignore  
 
+---
+## 📸 Screenshot
+
+![Job Tracker Screenshot](./Job_Tracker_Screenshot.png)
+
 
 ---
 
